@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Senha - Devisate Construções</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="auth-page">
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <div class="logo-icon"></div>
+                    <div class="logo-text">
+                        <span class="logo-title">Devisate</span>
+                        <span class="logo-subtitle">CONSTRUÇÕES</span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="auth-section">
+        <div class="container">
+            <div class="auth-form-container recuperar-container">
+                <div class="auth-form recuperar-form">
+                    <div class="icon-box">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1e5a8e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </div>
+                    <h2>Recuperar Senha</h2>
+                    <p class="auth-subtitle">Insira o e-mail cadastrado. Enviaremos um link seguro para a redefinição imediata da sua senha.</p>
+                    
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="email">E-mail de cadastro</label>
+                            <input type="email" id="email" name="email" placeholder="seuemail@empresa.com" required>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary btn-full">Enviar Instruções de Recuperação</button>
+                    </form>
+                    
+                    <p class="auth-footer">
+                        Lembrou sua senha? <a href="login.html">Voltar ao Login</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer auth-footer-custom">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <div class="logo-icon"></div>
+                        <div class="logo-text">
+                            <span class="logo-title">Devisate Construções</span>
+                        </div>
+                    </div>
+                    <p>Equipamentos confiáveis para obras, reformas e serviços de manutenção.</p>
+                </div>
+                <div class="footer-section">
+                    <div class="atendimento">
+                        <div class="atendimento-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Atendimento</strong>
+                            <p>Seg. a sex. • 8h às 18h</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="equipamentos.html">Equipamentos</a></li>
+                        <li><a href="index.html#sobre">Sobre</a></li>
+                        <li><a href="index.html#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

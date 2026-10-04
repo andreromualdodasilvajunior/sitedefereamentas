@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Devisate Construções</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="auth-page">
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <div class="logo-icon"></div>
+                    <div class="logo-text">
+                        <span class="logo-title">Devisate</span>
+                        <span class="logo-subtitle">CONSTRUÇÕES</span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="auth-section">
+        <div class="container">
+            <div class="auth-container">
+                <div class="auth-banner">
+                    <h2>A plataforma digital para as necessidades da sua obra.</h2>
+                    <p>Faça login para gerenciar suas locações, conferir disponibilidade em tempo real e agendar retiradas de forma rápida e segura.</p>
+                    <img src="https://images.unsplash.com/photo-1558346490-a72e5e9208d3?w=600" alt="Gerador industrial">
+                </div>
+                <div class="auth-form-container">
+                    <div class="auth-form">
+                        <h2>Olá novamente</h2>
+                        <p class="auth-subtitle">Acesse sua conta para continuar sua locação.</p>
+                        
+                        <form action="#" method="POST">
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" placeholder="exemplo@devisate.com.br" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="senha">Senha</label>
+                                <input type="password" id="senha" name="senha" placeholder="Sua senha de acesso" required>
+                            </div>
+                            
+                            <div class="form-options">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="lembrar">
+                                    <span>Lembrar acesso</span>
+                                </label>
+                                <a href="recuperar-senha.html" class="forgot-link">Esqueceu a senha?</a>
+                            </div>
+                            
+                            <button type="submit" class="btn-primary btn-full">Entrar na conta</button>
+                        </form>
+                        
+                        <p class="auth-footer">
+                            Não tem conta? <a href="cadastro.html">Criar conta gratuita</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer auth-footer-custom">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <div class="logo-icon"></div>
+                        <div class="logo-text">
+                            <span class="logo-title">Devisate Construções</span>
+                        </div>
+                    </div>
+                    <p>Equipamentos confiáveis para obras, reformas e serviços de manutenção.</p>
+                </div>
+                <div class="footer-section">
+                    <div class="atendimento">
+                        <div class="atendimento-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Atendimento</strong>
+                            <p>Seg. a sex. • 8h às 18h</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="equipamentos.html">Equipamentos</a></li>
+                        <li><a href="index.html#sobre">Sobre</a></li>
+                        <li><a href="index.html#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

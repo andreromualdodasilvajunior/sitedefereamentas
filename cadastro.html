@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta - Devisate Construções</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="auth-page">
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <div class="logo-icon"></div>
+                    <div class="logo-text">
+                        <span class="logo-title">Devisate</span>
+                        <span class="logo-subtitle">CONSTRUÇÕES</span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="auth-section">
+        <div class="container">
+            <div class="auth-form-container cadastro-container">
+                <div class="auth-form cadastro-form">
+                    <h2>Crie sua conta</h2>
+                    <p class="auth-subtitle">Rápido, simples e gratuito. Comece a locar em poucos minutos.</p>
+                    
+                    <form action="#" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nome">Nome Completo</label>
+                                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cpf">CPF / CNPJ</label>
+                                <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">E-mail corporativo</label>
+                                <input type="email" id="email" name="email" placeholder="seuemail@empresa.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telefone">Telefone com DDD</label>
+                                <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-0000" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="senha">Senha de acesso</label>
+                                <input type="password" id="senha" name="senha" placeholder="Mínimo 8 caracteres" required minlength="8">
+                            </div>
+                            <div class="form-group">
+                                <label for="confirmar-senha">Confirmar Senha</label>
+                                <input type="password" id="confirmar-senha" name="confirmar-senha" placeholder="Repita a senha" required>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary btn-full">Cadastrar e Continuar</button>
+                    </form>
+                    
+                    <p class="auth-footer">
+                        Já possui uma conta? <a href="login.html">Fazer Login</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer auth-footer-custom">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <div class="logo-icon"></div>
+                        <div class="logo-text">
+                            <span class="logo-title">Devisate Construções</span>
+                        </div>
+                    </div>
+                    <p>Equipamentos confiáveis para obras, reformas e serviços de manutenção.</p>
+                </div>
+                <div class="footer-section">
+                    <div class="atendimento">
+                        <div class="atendimento-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Atendimento</strong>
+                            <p>Seg. a sex. • 8h às 18h</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="equipamentos.html">Equipamentos</a></li>
+                        <li><a href="index.html#sobre">Sobre</a></li>
+                        <li><a href="index.html#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
